@@ -21,10 +21,6 @@
 	src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <div style="background-color: #000000;">
-	<center>
-		<img src="https://i.postimg.cc/P5pxF7RY/Sin-t-tulo-4.png"
-			class="img-rounded" alt="Cinque Terre" width="900" height="250">
-	</center>
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 
@@ -50,8 +46,79 @@
 		</div>
 	</nav>
 </div>
+<br><br><br><br><br>
 </head>
 <body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="login-container p-5 rounded shadow-lg">
+            <h2 class="text-center text-white mb-4" style="color:#FFFFFF">¡Bienvenido!</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="correo" class="form-label" style="color:#FFFFFF">Correo</label>
+                    <input type="correo" class="form-control" id="correo" placeholder="Ingresa tu correo">
+                </div>
+                <div class="mb-3">
+                    <label for="contraseña" class="form-label" style="color:#FFFFFF">Contraseña</label>
+                    <input type="contraseña" class="form-control" id="contraseña" placeholder="Ingresa tu contraseña">
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="recordar">
+                        <label class="form-check-label" style="color:#FFFFFF" for="recordar">
+                            Recordar
+                        </label>
+                    </div>
+                    <a href="#" style="color:#FFFFFF" >¿Olvidaste tu contraseña?</a>
+                    <br></br>
+                
+                </div>
+                <div class="mt-4 text-center">
+                    <button type="submit" class="btn btn-primary w-100">Iniciar</button>
+                </div>
+            </form>
+            <hr class="text-white">
+            <div class="text-center" style="color:#FFFFFF">
+                <p >¿No estas registrado? <a href="#" class="text-primary" >Registrate</a></p>
+            </div>
+        </div>
+    </div>
 
+    <style>
+        body {
+            background-color: #f8f9fa;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background: linear-gradient(135deg, #000000, #343a40);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-container .form-label {
+            color: #ced4da;
+        }
+
+        .login-container .form-control {
+            background-color: #495057;
+            color: #ffffff;
+            border: 1px solid #ced4da;
+        }
+
+        .login-container .btn-primary {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+
+        .login-container .btn-primary:hover {
+            background-color: #0b5ed7;
+            border-color: #0a58ca;
+        }
+    </style>
 </body>
+
 </html>
