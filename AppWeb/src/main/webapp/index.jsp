@@ -32,7 +32,7 @@
 				<li class="active"><a href="#">Home</a></li>
 				<li><a href="#">Profesionales</a></li>
 				<li><a href="#">Calendario</a></li>
-				<li><a href="#">Mis Citas</a></li>
+				<li><a href="form_register.jsp">Mis Citas</a></li>
 				<li><a href="#">Contacto</a></li>
 			</ul>
 			<form class="navbar-form navbar-left" action="/action_page.php">
@@ -44,7 +44,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="form_register.jsp"><span class="glyphicon glyphicon-user"></span>
 						Registrate</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
+				<li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span>
 						Acceder</a></li>
 			</ul>
 		</div>
