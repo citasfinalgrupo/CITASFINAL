@@ -24,11 +24,11 @@
 		<div class="container-fluid">
 
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
+				<li class="active"><a href="index.jsp">Home</a></li>
 				<li><a href="#">Profesionales</a></li>
 				<li><a href="#">Calendario</a></li>
-				<li><a href="#">Mis Citas</a></li>
-				<li><a href="#">Contacto</a></li>
+					<li><a href="miscitas.jsp">Mis Citas</a></li>
+				<li><a href="contacto.jsp">Contacto</a></li>
 			</ul>
 			<form class="navbar-form navbar-left" action="/action_page.php">
 				<div class="form-group">
@@ -37,10 +37,8 @@
 				<button type="submit" class="btn btn-default">Buscar</button>
 			</form>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="form_register.jsp"><span class="glyphicon glyphicon-user"></span>
-						Registrate</a></li>
 				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
-						Acceder</a></li>
+						Walter</a></li>
 			</ul>
 		</div>
 	</nav>

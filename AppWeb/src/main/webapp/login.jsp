@@ -25,11 +25,11 @@
 		<div class="container-fluid">
 
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
+				<li class="active"><a href="index.jsp">Home</a></li>
 				<li><a href="#">Profesionales</a></li>
 				<li><a href="#">Calendario</a></li>
-				<li><a href="#">Mis Citas</a></li>
-				<li><a href="#">Contacto</a></li>
+				<li><a href="form_register.jsp">Mis Citas</a></li>
+				<li><a href="contacto.jsp">Contacto</a></li>
 			</ul>
 			<form class="navbar-form navbar-left" action="/action_page.php">
 				<div class="form-group">
@@ -52,14 +52,14 @@
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
         <div class="login-container p-5 rounded shadow-lg">
             <h2 class="text-center text-white mb-4" style="color:#FFFFFF">¡Bienvenido!</h2>
-            <form>
+            <form action="login">
                 <div class="mb-3">
                     <label for="correo" class="form-label" style="color:#FFFFFF">Correo</label>
-                    <input type="correo" class="form-control" id="correo" placeholder="Ingresa tu correo">
+                    <input type="correo" class="form-control" id="correo" placeholder="Ingresa tu correo"  required>
                 </div>
                 <div class="mb-3">
                     <label for="contraseña" class="form-label" style="color:#FFFFFF">Contraseña</label>
-                    <input type="contraseña" class="form-control" id="contraseña" placeholder="Ingresa tu contraseña">
+                    <input type="contraseña" class="form-control" id="contraseña" placeholder="Ingresa tu contraseña" required>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="form-check">
@@ -73,7 +73,7 @@
                 
                 </div>
                 <div class="mt-4 text-center">
-                    <button type="submit" class="btn btn-primary w-100">Iniciar</button>
+                    <button type="submit" class="btn btn-primary w-100"><a href="perfilusuario.jsp" style="color:#FFFFFF" >Iniciar</a></button>
                 </div>
             </form>
             <hr class="text-white">

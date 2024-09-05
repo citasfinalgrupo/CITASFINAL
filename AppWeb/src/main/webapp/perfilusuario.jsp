@@ -20,7 +20,6 @@
 <script
 	src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
-
 <div style="background-color: #000000;">
 	<center>
 		<img src="https://i.postimg.cc/P5pxF7RY/Sin-t-tulo-4.png"
@@ -30,10 +29,10 @@
 		<div class="container-fluid">
 
 			<ul class="nav navbar-nav">
-			<li class="active"><a href="index.jsp">Home</a></li>
+					<li class="active"><a href="index.jsp">Home</a></li>
 				<li><a href="#">Profesionales</a></li>
 				<li><a href="#">Calendario</a></li>
-					<li><a href="form_register.jsp">Mis Citas</a></li>
+				<li><a href="miscitas.jsp">Mis Citas</a></li>
 				<li><a href="contacto.jsp">Contacto</a></li>
 			</ul>
 			<form class="navbar-form navbar-left" action="/action_page.php">
@@ -43,10 +42,9 @@
 				<button type="submit" class="btn btn-default">Buscar</button>
 			</form>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="form_register.jsp"><span class="glyphicon glyphicon-user"></span>
-						Registrate</a></li>
+			
 				<li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span>
-						Acceder</a></li>
+						Walter</a></li>
 			</ul>
 		</div>
 	</nav>
